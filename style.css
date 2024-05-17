@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif Times, serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif, 'Times New Roman', Times, serif, Tahoma, Geneva, Verdana, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+    box-sizing: border-box;
+    /* background-image: radial-gradient(rgb(42, 27, 27) , rgb(255, 0, 238) ,rgb(0, 2, 128)); */
+}
+.heading{
+    background-color:whitesmoke;
+    height: 6vh;
+    width: 100%;
+    display:flex;
+    color: #33b39b;
+    font-size: 30px;
+    padding-left: 300px;
+    align-items: center;
+    font-weight:600;
+}
+.container{
+    width: 100%;
+    height: 92vh;
+    /* background-color: azure; */
+    background-image: url("./dark-gradient.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),-5px -5px 15px rgba(0,0,0,0.2);
+}
+
+.calculator{
+    background-color:whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size:xx-large;
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 80px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow:  -8px -8px 15px rgba(255,255,255,0.1),-5px -5px 15px rgba(0,0,0,0.2);
+    background: transparent;
+    color: #070606;
+    cursor:pointer;
+    margin: 10px;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin :20px 0;
+}
+form .display input{
+    text-align: right;
+    flex:1;
+    font-size: 45px;
+    box-shadow: none;
+}
+form input.equal{
+    width: 180px;
+    color: whitesmoke;
+    background-color: #33b39b;
+}
+form input.operator{
+    color: #33b39b;
+    font-weight: bolder;
+}
+::placeholder {
+    color:#33b39b;
+    opacity: .3; 
+  }
+  
